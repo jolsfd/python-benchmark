@@ -23,7 +23,7 @@ start = time.time()
 
 for i in range(0, 1001):
     result = fibonacci(i)
-    print(i, result)
+    # print(i, result)
 
 finish = time.time()
 duration = finish - start
