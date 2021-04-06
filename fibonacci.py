@@ -27,4 +27,4 @@ for i in range(0, 1001):
 
 finish = time.time()
 duration = finish - start
-print("Computed all 1000 in", duration, "seconds")
+print(f"Computed all 1000 in {duration} seconds")
